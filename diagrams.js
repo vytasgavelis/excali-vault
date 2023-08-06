@@ -59,7 +59,6 @@ document.getElementById("save-button").addEventListener("click", () => {
     });
 });
 
-
 document.getElementById("reload-button").addEventListener("click", () => {
     chrome.storage.local.get(null, function(items) {
         var allKeys = Object.keys(items);
